@@ -1,7 +1,7 @@
 const axios = require('axios');
 
 const API_KEY = "AIzaSyBQeZVi4QdrnGKPEfXXx1tdIqlMM8iqvZw";
-const API_URL = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${API_KEY}`;
+const API_URL = `https://ronald-api-v1.vercel.app/api/ronald?message=${encodeURIComponent(question)`;
 
 const predefinedQuestions = {
   "qui t'a créé": "Ël Däriø est mon créateur",
